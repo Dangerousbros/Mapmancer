@@ -1,1 +1,1 @@
-{"name":"mapmancer","version":"1.0.0","private":true,"description":"Paint animated effects onto battlemaps","scripts":{"test":"node tests/release.cjs"},"devDependencies":{"playwright":"^1.58.0"}}
+{"name":"mapmancer","version":"1.0.1","private":true,"description":"Paint animated effects onto battlemaps","scripts":{"test":"node tests/release.cjs"},"devDependencies":{"playwright":"^1.58.0"}}

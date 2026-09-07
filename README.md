@@ -4,7 +4,7 @@
 
 A free, open-source desktop-friendly editor for turning still maps into living scenes. Paint effects where they belong, shape the atmosphere, and export a seamless WebM at the map's original resolution.
 
-[Download v1.0.0](https://github.com/Dangerousbros/Mapmancer/releases/latest) · [Quick start](#quick-start) · [Drawing tools](#drawing-tools) · [Contributing](CONTRIBUTING.md)
+[Download v1.0.1](https://github.com/Dangerousbros/Mapmancer/releases/latest) · [Quick start](#quick-start) · [Drawing tools](#drawing-tools) · [Contributing](CONTRIBUTING.md)
 
 ![Mapmancer — Kraken Depths](docs/images/kraken-depths.png)
 
@@ -20,7 +20,7 @@ A free, open-source desktop-friendly editor for turning still maps into living s
 
 ## Quick start
 
-1. Download and extract **Mapmancer-1.0.0.zip** from [Releases](https://github.com/Dangerousbros/Mapmancer/releases/latest).
+1. Download and extract **Mapmancer-1.0.1.zip** from [Releases](https://github.com/Dangerousbros/Mapmancer/releases/latest).
 2. Install [Python 3.10 or newer](https://www.python.org/downloads/), with Python on PATH.
 3. Install [FFmpeg](https://ffmpeg.org/download.html) with the `libvpx-vp9` encoder. Put `ffmpeg.exe` beside `server.py`, add FFmpeg to PATH, or set `MAP_FX_FFMPEG` to its executable.
 4. On Windows, double-click **Start Mapmancer.vbs**. Edge or Chrome opens a dedicated app window without tabs or an address bar.
@@ -37,7 +37,7 @@ python server.py              # Default browser, localhost:8765
 python server.py --no-open     # Server only
 ```
 
-Desktop mode uses localhost:8767 and a separate browser profile. Close the app window to stop its server. Launch one desktop instance at a time. If no supported Chromium browser is found, the launcher falls back to your default browser; keep the launcher running. Browser mode also works on macOS and Linux with Python, FFmpeg and a WebGL 2 browser. Windows is the tested desktop platform.
+Desktop mode uses localhost:8767 and a separate browser profile. Close the app window to stop its server. Additional desktop instances use another available local port. If no supported Chromium browser is found, the launcher falls back to your default browser; keep the launcher running. Browser mode also works on macOS and Linux with Python, FFmpeg and a WebGL 2 browser. Windows is the tested desktop platform.
 
 ## Drawing tools
 
