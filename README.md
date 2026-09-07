@@ -93,3 +93,7 @@ Start `python server.py --no-open --port 8766` before browser tests. Tests use C
 ## Licence
 
 Application source: [MIT](LICENSE). Free to use, modify and redistribute, including commercially. Bundled map artwork and screenshots are excluded from the MIT licence; the underlying artwork remains with its respective creators. Mapmancer is an independent project, not affiliated with Dungeondraft, Crosshead Studios or Roll20.
+
+## Disclaimer
+
+This software was created with the assistance of generative AI.
