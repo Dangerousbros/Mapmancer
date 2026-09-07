@@ -1,0 +1,6 @@
+* text=auto
+*.mapfx -text
+*.png -text
+*.webm -text
+*.vbs text eol=crlf
+*.cmd text eol=crlf
